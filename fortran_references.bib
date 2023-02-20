@@ -1,0 +1,336 @@
+@book{Chpmn2018,
+   author           = {Chapman, Stephen J.},
+                         % O autor do título
+   maintitle        = {O título principal de um livro de vários volumes},
+                         % O título principal de um livro de vários volumes,
+                         % como Collected Works. Se o campo títle ou booktitle
+                         % indicar o título de um único volume que faz parte de
+                         % um livro de vários volumes, o título da obra
+                         % completa é fornecido neste campo.
+   mainsubtitle     = {subtítulo do título principal},
+                         % O subtítulo relacionado com o título principal.
+                         % Veja também legenda.
+   maintitleaddon   = {anexo ao título principal},
+                         % Um anexo ao título principal, a ser impresso em uma
+                         % fonte diferente.
+   volume           = {10},
+                         % O volume de um livro de vários volumes ou um
+                         % periódico. Espera-se que seja um número inteiro, não
+                         % necessariamente em algarismos arábicos, pois o biber
+                         % converterá automaticamente de algarismos romanos ou
+                         % letras arábicas para inteiros internamente para fins
+                         % de classificação. Veja também parte. Veja a opção
+                         % noroman que pode ser usada para suprimir a análise
+                         % de numeral romano. Isso pode ajudar nos casos em que
+                         % há uma ambiguidade entre a análise como numerais
+                         % romanos ou alfanuméricos (por exemplo, 'C'),
+                         % consulte § 3.1.2.3.
+   part             = {2},
+                         % O número de um volume parcial. Este campo aplica-se
+                         % apenas a livros, não a periódicos. Pode ser usado
+                         % quando um volume lógico consiste em dois ou mais
+                         % físicos. Neste caso o número do volume lógico vai
+                         % no campo volume e o número da parte desse volume no
+                         % campo parte. Consulte também volume.
+   title            = {Fortran},
+                         % O título do trabalho
+   subtitle         = {for Scientists and Engineers},
+                         % O subtítulo do trabalho
+   titleaddon       = {Anexo ao título},
+                         % Um anexo ao título, a ser impresso em outra fonte.
+   language         = {portuguese},
+                         % A(s) língua(s) da obra. Os idiomas podem ser
+                         % especificados literalmente ou como chaves de
+                         % localização. Se forem usadas chaves de localização,
+                         % o prefixo lang é omisso. Veja também origlanguage e
+                         % compare langid no § 2.2.3.
+   origlanguage     = {english},
+   editor           = {Editor Principal},
+                         % O(s) editor(es) do título, booktitle ou maintitle,
+                         % dependendo do tipo de entrada. Use o campo
+                         % editortype para especificar a função se for
+                         % diferente de ‘editor’. Veja § 2.3.6 para mais dicas.
+   %editortype       = {editor},
+                         % O tipo de papel editorial desempenhado pelo editor.
+                         % As funções suportadas por defeito são editor,
+                         % compilador, fundador, continuador, redator, revisor,
+                         % colaborador, organizador. A função 'editor' é o
+                         % padrão. Neste caso, o campo é omissível.
+                         % Veja § 2.3.6 para mais dicas.
+   editora          = {Editor Secundário A},
+                         % Um editor secundário desempenhando uma função
+                         % editorial diferente, como compilar, redigir, etc.
+                         % Use o campo editoratype para especificar a função.
+                         % Veja § 2.3.6 para mais dicas.
+   %editortype       = {compilador},
+   editorb          = {Editor Secundário B},
+                         % Outro editor secundário desempenhando um papel
+                         % diferente. Use o campo editorbtype para especificar
+                         % a função. Veja § 2.3.6 para mais dicas.
+   editorc          = {Editor Secundário C},
+                         % Outro editor secundário desempenhando um papel
+                         % diferente. Use o campo editorbtype para especificar
+                         % a função. Veja § 2.3.6 para mais dicas.
+   translator       = {Tradutor do Título},
+                         % O(s) tradutor(es) do título ou título do livro,
+                         % dependendo do tipo de entrada. Se o tradutor for
+                         % idêntico ao editor, os estilos padrão concatenarão
+                         % automaticamente esses campos na bibliografia
+   commentator      = {Autores dos Comentários},
+                         % O(s) autor(es) de um comentário à obra. Observe que
+                         % este campo é destinado a edições comentadas que
+                         % possuem um comentarista além do autor.
+                         % Se o trabalho for um comentário autônomo, o
+                         % comentador deve ser indicado no campo autor. Se o
+                         % comentarista for idêntico ao editor e/ou tradutor,
+                         % os estilos padrão concatenarão automaticamente esses
+                         % campos na bibliografia. Veja também anotador.
+   annotator        = {Autores das Anotações},
+                         % O(s) autor(es) das anotações da obra. Se o anotador
+                         % for idêntico ao editor e/ou tradutor, os estilos
+                         % padrão concatenarão automaticamente esses campos na
+                         % bibliografia. Veja também comentarista.
+   introduction     = {Autores de uma Introdução a obra},
+                         % O(s) autor(es) de uma introdução à obra. Se o autor
+                         % da introdução for idêntico ao editor e/ou tradutor,
+                         % os estilos padrão concatenarão automaticamente esses
+                         % campos na bibliografia. Veja também prefácio e
+                         % posfácio.
+   foreword         = {Autores de um Prefácio},
+                         % O(s) autor(es) de um prefácio da obra. Se o autor
+                         % do prefácio for idêntico ao editor e/ou tradutor,
+                         % os estilos padrão concatenarão automaticamente esses
+                         % campos na bibliografia. Veja também introdução e
+                         % posfácio.
+   afterword        = {Autores de um Posfácio},
+                         % O(s) autor(es) de um posfácio da obra. Se o autor do
+                         % posfácio for idêntico ao editor e/ou tradutor, os
+                         % estilos padrão concatenarão automaticamente esses
+                         % campos na bibliografia. Veja também introdução e
+                         % prefácio.
+   edition          = {189},
+                         % A edição de uma publicação impressa. Deve ser um
+                         % número inteiro, não um ordinal. Não diga
+                         % edition={First} ou edition={1st}, mas edition={1}.
+                         % O estilo de bibliografia converte isso em um ordinal
+                         % dependente do idioma. Também é possível dar a edição
+                         % como uma string literal, por exemplo “Terceira edição
+                         % revisada e expandida”.
+   volumes          = {20},
+                         % O número total de volumes de uma obra de vários
+                         % volumes. Dependendo do tipo de entrada, este campo
+                         % refere-se ao título ou título principal. Espera-se
+                         % que seja um número inteiro, não necessariamente em
+                         % algarismos arábicos, pois o biber converterá
+                         % automaticamente de algarismos romanos ou letras
+                         % arábicas para inteiros internamente para fins de
+                         % classificação. Veja a opção noroman que pode ser
+                         % usada para suprimir a análise de numeral romano.
+                         % Isso pode ajudar nos casos em que há uma
+                         % ambiguidade entre a análise como numerais romanos
+                         % ou alfanuméricos (por exemplo, 'C'),
+                         % consulte § 3.1.2.3.
+   series           = {O estudo em (...)},
+                         % O nome de uma série de publicações, como "Estudos
+                         % em ...", ou o número de uma série de periódicos. Os
+                         % livros de uma série de publicações geralmente são
+                         % numerados. O número ou volume de um livro em uma
+                         % série é dado no campo numérico. Observe que o tipo
+                         % de entrada @article também usa o campo de série,
+                         % mas o trata de uma maneira especial.
+                         % Veja § 2.3.7 para detalhes.
+   number           = {32},
+                         % O número de um periódico ou o volume/número de um
+                         % livro em uma série. Ver também emissão, bem como
+                         % §§ 2.3.7, 2.3.10, 2.3.11. Com entradas @patent, este
+                         % é o número ou token de registro de uma patente ou
+                         % solicitação de patente. Normalmente, este campo será
+                         % um inteiro ou um intervalo de inteiros, mas também
+                         % pode ser um designador curto que não seja
+                         % inteiramente numérico, como “S1”, “Suppl. 2”, “3s”.
+                         % Nesses casos, a saída deve ser examinada
+                         % cuidadosamente.
+                         %
+                         % Como o número é – talvez contraintuitivamente dado
+                         % seu nome – um campo literal, os modelos de
+                         % classificação não tratarão seu conteúdo como números
+                         % inteiros, mas como strings literais, o que significa
+                         % que “11” pode classificar entre “1” e “2”. Se a
+                         % classificação inteira for desejada, o campo pode ser
+                         % declarado um campo inteiro em um modelo de dados
+                         % personalizado (consulte § 4.5.4). Mas então a
+                         % classificação de valores não inteiros não está bem
+                         % definida.
+                         %
+                         % O 'número do artigo' ou 'número do papel', que pode
+                         % ser usado em vez de - ou junto com - um intervalo de
+                         % páginas para identificar um artigo específico dentro
+                         % de outro trabalho, vai para o campo eid.
+   note             = {Dados diversos},
+                         % Dados bibliográficos diversos que não se enquadram
+                         % em nenhum outro campo. O campo nota pode ser
+                         % utilizado para registrar dados bibliográficos em
+                         % formato livre. Fatos de publicação como “Reprint of
+                         % the edition London 1831” são candidatos típicos para
+                         % o campo de nota. Veja também adendo.
+   location         = {São Luís},
+                         % O(s) local(is) de publicação, i. e., a localização
+                         % da editora ou instituição, dependendo do tipo de
+                         % entrada. O BibTeX tradicional usa o endereço do
+                         % nome do campo, que é suportado como um alias. Ver
+                         % também §§ 2.2.5 e 2.3.4. Com entradas @patent, esta
+                         % lista indica o escopo de uma patente. Esta lista
+                         % também pode ser útil para os tipos personalizados
+                         % listados no § 2.1.3.
+   origlocation     = {New York},
+                         % Se a obra for uma tradução, reimpressão ou algo
+                         % semelhante, o local da edição original. Não usado
+                         % pelos estilos de bibliografia padrão. Ver também
+                         % localização e § 2.3.4.
+   publisher        = {Editora},
+                         % O(s) nome(s) da(s) editor(as). Ver também § 2.3.4.
+   origpublisher    = {Editora Original (Publisher)},
+                         % Se a obra for uma tradução, reimpressão ou algo
+                         % semelhante, a editora da edição original. Não usado
+                         % pelos estilos de bibliografia padrão. Ver também
+                         % editor e § 2.3.4.
+   year             = {2022},
+                         % O ano de publicação. Este campo é um campo literal
+                         % apenas quando fornecido explicitamente nos dados
+                         % (para compatibilidade simples do BibTeX, por exemplo).
+                         % No entanto, é melhor usar o campo de date, pois
+                         % também é compatível com anos simples e suporta
+                         % muitos outros recursos. Ver §§ 2.3.8 e 2.3.9.
+   date             = {2021},
+                         % A data da publicação
+   origdate         = {1921},
+                         % Se a obra for uma tradução, uma reimpressão ou algo
+                         % semelhante, a data de publicação da edição original.
+                         % Não usado pelos estilos de bibliografia padrão.
+                         % Consulte também data.
+   eventdate        = {1970},
+                         % A data de uma conferência, simpósio ou algum outro
+                         % evento nas entradas @proceedings e @inproceedings.
+                         % Este campo também pode ser útil para os tipos
+                         % personalizados listados no § 2.1.3. Veja também
+                         % título e local do evento, bem como § 2.3.8.
+   chapter          = {Um capítulo},
+                         % Um capítulo ou seção ou qualquer outra unidade de
+                         % um trabalho.
+   eid              = {99--9999999--99},
+                         % O identificador eletrônico de um @artigo ou seção
+                         % semelhante a um capítulo de um trabalho maior,
+                         % muitas vezes chamado de 'número do artigo',
+                         % 'número do papel' ou similar. Este campo pode
+                         % substituir o campo de páginas para periódicos que
+                         % se desviem do esquema clássico de paginação dos
+                         % periódicos impressos, apenas enumerando artigos ou
+                         % papers e não páginas. Não confundir com número, que
+                         % para @articles subdivide o volume.
+   pages            = {77--79},
+                         % Um ou mais números de página ou intervalos de
+                         % páginas. Se o trabalho for publicado como parte de
+                         % outro, como um artigo em um periódico ou uma
+                         % coleção, este campo conterá o intervalo de páginas
+                         % relevante nesse outro trabalho. Também pode ser
+                         % usado para limitar a referência a uma parte
+                         % específica de uma obra (um capítulo de um livro,
+                         % por exemplo). Para artigos em periódicos
+                         % eletrônicos com uma configuração de paginação não
+                         % clássica, o campo eid pode ser mais adequado.
+   pagetotal        = {1024},
+                         % o número total de páginas da obra.
+   isbn             = {00--0000000--00},
+                         % O número de livro padrão internacional de um livro.
+   doi              = {journal\999999},
+                         % O Identificador de Objeto Digital da obra.
+   eprint           = {Identificador~de~Publicacao~Online},
+                         % O identificador eletrônico de uma publicação online.
+                         % Isso é aproximadamente comparável a um doi, mas
+                         % específico para um determinado arquivo, repositório,
+                         % serviço ou sistema. Consulte § 3.14.7 para obter
+                         % detalhes. Veja também eprinttype e eprintclass.
+   eprintclass      = {Informacoes adicionais},
+                         % Informações adicionais relacionadas ao recurso
+                         % indicado pelo campo eprinttype. Pode ser uma seção
+                         % de um arquivo, um caminho indicando um serviço, uma
+                         % classificação de algum tipo, etc. Consulte § 3.14.7
+                         % para obter detalhes. Veja também eprint e eprinttype.
+   eprinttype       = {tipo de identificador eprint},
+                         % O tipo de identificador eprint, e. por exemplo, o
+                         % nome do arquivo, repositório, serviço ou sistema ao
+                         % qual o campo eprint se refere. Consulte § 3.14.7
+                         % para obter detalhes. Veja também eprint e eprintclass.
+   url              = {ufma.br},
+                         % O URL de uma publicação online. Se não tiver escape
+                         % de URL (sem caracteres '%'), ele terá escape de URI
+                         % de acordo com a RFC 3987, ou seja, até os caracteres
+                         % Unicode serão escapados corretamente.
+   urldate          = {2010},
+                         % A data de acesso do endereço especificado no campo
+                         % url. Ver também § 2.3.8.
+   addendum         = {Adendum (semelhante a nota)},
+                         % Dados bibliográficos diversos a serem impressos no
+                         % final da entrada. Isso é semelhante ao campo de
+                         % nota, exceto que é impresso no final da entrada de
+                         % bibliografia.
+   pubstate         = {Estado da publicação},
+                         % O estado de publicação do trabalho, e. ex.,
+                         % “no prelo”. Veja § 4.9.2.11 para estados de
+                         % publicação conhecidos.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@book{Chapman2018,
+   author           = {Chapman, Stephen J.},
+                         % O autor do título
+   title            = {Fortran},
+                         % O título do trabalho
+   subtitle         = {for Scientists and Engineers},
+                         % O subtítulo do trabalho
+   language         = {english},
+                         % A(s) língua(s) da obra. Os idiomas podem ser
+                         % especificados literalmente ou como chaves de
+                         % localização. Se forem usadas chaves de localização,
+                         % o prefixo lang é omisso. Veja também origlanguage e
+                         % compare langid no § 2.2.3.
+   edition          = {4},
+                         % A edição de uma publicação impressa. Deve ser um
+                         % número inteiro, não um ordinal. Não diga
+                         % edition={First} ou edition={1st}, mas edition={1}.
+                         % O estilo de bibliografia converte isso em um ordinal
+                         % dependente do idioma. Também é possível dar a edição
+                         % como uma string literal, por exemplo “Terceira edição
+                         % revisada e expandida”.
+   location         = {New York, NY, USA},
+                         % O(s) local(is) de publicação, i. e., a localização
+                         % da editora ou instituição, dependendo do tipo de
+                         % entrada. O BibTeX tradicional usa o endereço do
+                         % nome do campo, que é suportado como um alias. Ver
+                         % também §§ 2.2.5 e 2.3.4. Com entradas @patent, esta
+                         % lista indica o escopo de uma patente. Esta lista
+                         % também pode ser útil para os tipos personalizados
+                         % listados no § 2.1.3.
+   publisher        = {MacGraw-Hill Education},
+                         % O(s) nome(s) da(s) editor(as). Ver também § 2.3.4.
+   date             = {2018},
+                         % A data da publicação
+   chapter          = {1},
+                         % Um capítulo ou seção ou qualquer outra unidade de
+                         % um trabalho.
+   pages            = {1--21},
+                         % Um ou mais números de página ou intervalos de
+                         % páginas. Se o trabalho for publicado como parte de
+                         % outro, como um artigo em um periódico ou uma
+                         % coleção, este campo conterá o intervalo de páginas
+                         % relevante nesse outro trabalho. Também pode ser
+                         % usado para limitar a referência a uma parte
+                         % específica de uma obra (um capítulo de um livro,
+                         % por exemplo). Para artigos em periódicos
+                         % eletrônicos com uma configuração de paginação não
+                         % clássica, o campo eid pode ser mais adequado.
+   pagetotal        = {1049},
+                         % o número total de páginas da obra.
+   isbn             = {978--0--07--338589--1},
+                         % O número de livro padrão internacional de um livro.
+}

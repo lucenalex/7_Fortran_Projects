@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'fortran_main.blg'
+[383] biber-MSWIN64:340> INFO - === 
+[509] Biber.pm:418> INFO - Reading 'fortran_main.bcf'
+[974] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[1026] Biber.pm:4383> INFO - Processing section 0
+[1081] Biber.pm:4574> INFO - Looking for bibtex file 'fortran_references.bib' for section 0
+[1201] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1246] bibtex.pm:1518> INFO - Found BibTeX data source 'fortran_references.bib'
+[1399] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1399] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1400] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1400] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[1404] bbl.pm:654> INFO - Writing 'fortran_main.bbl' with encoding 'UTF-8'
+[1406] bbl.pm:757> INFO - Output to fortran_main.bbl

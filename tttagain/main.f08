@@ -1,0 +1,22 @@
+PROGRAM main
+        ! Purpose:
+        !       To calculate the value of the some numbers.
+        !
+        ! Declare the variables used in this program.
+        IMPLICIT NONE
+        INTEGER :: N, b = 2, q, r, w    ! All variables ares integers
+        !
+        ! Get one value to store in variable N
+        WRITE (*,*) "Enter the number N: "
+        READ  (*,*) N
+        ! Operatios with the numbers variables
+        q = N/2
+        w = b*q
+        r = N - w
+        !
+        ! Write out the result
+        WRITE (*,*) 'q = ', q,'w = ', w ,'r = ', r
+        !
+        ! Finish up.
+        stop
+END PROGRAM main

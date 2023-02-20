@@ -1,0 +1,8 @@
+
+program hello
+    implicit none
+
+    print *, "Olá Mundo!"
+
+end program hello
+

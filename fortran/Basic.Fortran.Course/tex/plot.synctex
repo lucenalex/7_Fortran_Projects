@@ -1,0 +1,295 @@
+SyncTeX Version:1
+Input:1:C:\Users\lucen\Dropbox\Aplicativos\fortran\Basic.Fortran.Course\tex\plot.tex
+Input:2:C:\Program Files\MiKTeX\tex\latex\memoir\memoir.cls
+Input:3:C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+Input:4:C:\Program Files\MiKTeX\tex\latex\memoir\mem10.clo
+Input:5:C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+Input:6:C:\Program Files\MiKTeX\tex\latex\tools\dcolumn.sty
+Input:7:C:\Program Files\MiKTeX\tex\latex\tools\delarray.sty
+Input:8:C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+Input:9:C:\Program Files\MiKTeX\tex\latex\textcase\textcase.sty
+Input:10:C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+Input:11:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+Input:12:C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+Input:13:C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+Input:14:C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+Input:15:C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+Input:16:C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+Input:17:C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+Input:18:C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+Input:19:C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+Input:20:C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+Input:21:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+Input:22:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+Input:23:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+Input:24:C:\Program Files\MiKTeX\tex\latex\ms\everyshi.sty
+Input:25:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+Input:26:C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+Input:27:C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+Input:28:C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+Input:29:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Input:30:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:31:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+Input:32:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+Input:33:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+Input:34:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+Input:35:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+Input:36:C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+Input:37:C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+Input:38:C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+Input:39:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Input:40:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+Input:41:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+Input:42:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+Input:43:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+Input:44:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+Input:45:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+Input:46:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+Input:47:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+Input:48:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+Input:49:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+Input:50:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+Input:51:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+Input:52:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+Input:53:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+Input:54:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+Input:55:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+Input:56:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+Input:57:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+Input:58:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+Input:59:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+Input:60:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+Input:61:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+Input:62:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+Input:63:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+Input:64:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+Input:65:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+Input:66:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+Input:67:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+Input:68:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+Input:69:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+Input:70:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+Input:71:C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+Input:72:C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+Input:73:C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+Input:74:C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Input:75:C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Input:76:C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+Input:77:C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+Input:78:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:79:C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+Input:80:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+Input:81:C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+Input:82:C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+Input:83:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Input:84:C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+Input:85:C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+Input:86:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+Input:87:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+Input:88:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+Input:89:C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+Input:90:C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+Input:91:C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+Input:92:C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+Input:93:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+Input:94:C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+Input:95:C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+Input:96:C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+Input:97:C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+Input:98:C:\Program Files\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+Input:99:C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+Input:100:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+Input:101:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+Input:102:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+Input:103:C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+Input:104:C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+Input:105:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+Input:106:C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+Input:107:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+Input:108:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+Input:109:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+Input:110:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+Input:111:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+Input:112:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+Input:113:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+Input:114:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+Input:115:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+Input:116:C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+Input:117:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+Input:118:C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+Input:119:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+Input:120:C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+Input:121:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+Input:122:C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+Input:123:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+Input:124:C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+Input:125:C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.external.code.tex
+Input:126:C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\libraries\tikzlibraryexternal.code.tex
+Input:127:C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+Input:128:C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+Input:129:C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+Input:130:C:\Program Files\MiKTeX\tex\latex\atveryend\atveryend.sty
+Input:131:C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzexternalshared.code.tex
+Input:132:C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdfmode.def
+Input:133:C:\Users\lucen\Dropbox\Aplicativos\fortran\Basic.Fortran.Course\tex\plot.aux
+Input:134:C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+Input:135:C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+Output:pdf
+Magnification:1000
+Unit:1
+X Offset:0
+Y Offset:0
+Content:
+!11077
+{1
+[1,88:4736286,54010927:30670848,49274641,235932
+h1,88:4736286,4736286:0,0,0
+[1,88:5588254,54010927:29818880,50281568,235932
+[1,88:5588254,4909007:29818880,1179648,0
+(1,88:5588254,4909007:29818880,786432,0
+(1,88:5588254,4909007:29818880,786432,0
+g1,88:5588254,4909007
+(1,88:5588254,4909007:29818880,786432,0
+[1,88:5588254,4909007:29818880,786432,0
+(1,88:5588254,4673075:29818880,550500,235932
+(1,88:5588254,4673075:0,550500,235932
+[1,88:5588254,4673075:29818880,550500,235932
+(1,88:5588254,4673075:29818880,550500,235932
+h1,88:5588254,4673075:0,0,0
+r1,88:5588254,4673075:0,786432,235932
+r1,88:5588254,4673075:0,786432,235932
+k1,88:20497694,4673075:14909440
+k1,88:35407134,4673075:14909440
+)
+]
+k1,88:5588254,4673075:-29818880
+)
+g1,88:5588254,4673075
+[1,88:5588254,4673075:29818880,550500,235932
+(1,88:5588254,4673075:29818880,550500,235932
+k1,88:20497694,4673075:14909440
+h1,88:20497694,4673075:0,0,0
+r1,88:20497694,4673075:0,786432,235932
+r1,88:20497694,4673075:0,786432,235932
+g1,88:20497694,4673075
+k1,88:35407134,4673075:14909440
+)
+]
+g1,88:35407134,4673075
+(1,88:35407134,4673075:0,550500,235932
+k1,88:5588254,4673075:-29818880
+[1,88:5588254,4673075:29818880,550500,235932
+(1,88:5588254,4673075:29818880,550500,235932
+k1,88:35407134,4673075:29818880
+h1,88:35407134,4673075:0,0,0
+r1,88:35407134,4673075:0,786432,235932
+r1,88:35407134,4673075:0,786432,235932
+g1,88:35407134,4673075
+g1,88:35407134,4673075
+)
+]
+)
+)
+]
+)
+g1,88:35407134,4909007
+)
+)
+]
+[1,88:5588254,51651631:29818880,46057592,0
+[1,88:5588254,5594039:0,0,0
+(1,88:5588254,5594039:0,0,0
+g1,88:35407134,5594039
+g1,88:35780069,5594039
+k1,88:5588253,5594039:-30191816
+)
+]
+(1,24:5588254,11688887:29818880,786431,220200
+h1,24:5588254,11688887:0,0,0
+x1,24:10140382,11688887
+g1,24:10565055,11688887
+x1,24:11202064,11688887
+k1,24:23304599,11688887:12102535
+k1,24:35407134,11688887:12102535
+)
+[1,87:5588254,29622866:29818880,12995187,0
+[1,87:5588254,29622866:29818880,12995187,0
+(1,87:5588254,27963808:29818880,11336129,1659058
+k1,87:7374161,27963808:1785907
+h1,28:7374161,27963808:0,0,0
+k1,45:7374161,27963808:-2292574
+(1,45:5081587,27963808:15145329,11336129,1659058
+(1,45:5081587,29622866:15145329,12995187,0
+)
+)
+g1,51:20882276,27963808
+(1,85:20882276,27963808:17096679,11336063,1659058
+(1,85:20882276,29622866:17096679,12995121,0
+)
+)
+g1,87:33621228,27963808
+k1,87:35407134,27963808:1785906
+)
+]
+]
+]
+(1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:29818880,550500,235932
+g1,88:5588254,54010927
+(1,88:5588254,54010927:29818880,550500,235932
+[1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:0,550500,235932
+[1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:29818880,550500,235932
+h1,88:5588254,54010927:0,0,0
+r1,88:5588254,54010927:0,786432,235932
+r1,88:5588254,54010927:0,786432,235932
+k1,88:20497694,54010927:14909440
+k1,88:35407134,54010927:14909440
+)
+]
+k1,88:5588254,54010927:-29818880
+)
+g1,88:5588254,54010927
+[1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:29818880,550500,235932
+k1,88:20333854,54010927:14745600
+h1,88:20333854,54010927:0,0,0
+r1,88:20333854,54010927:0,786432,235932
+x1,88:20661535,54010927
+r1,88:20661535,54010927:0,786432,235932
+g1,88:20661535,54010927
+k1,88:35407135,54010927:14745600
+)
+]
+g1,88:35407134,54010927
+(1,88:35407134,54010927:0,550500,235932
+k1,88:5588254,54010927:-29818880
+[1,88:5588254,54010927:29818880,550500,235932
+(1,88:5588254,54010927:29818880,550500,235932
+k1,88:35407134,54010927:29818880
+h1,88:35407134,54010927:0,0,0
+r1,88:35407134,54010927:0,786432,235932
+r1,88:35407134,54010927:0,786432,235932
+g1,88:35407134,54010927
+g1,88:35407134,54010927
+)
+]
+)
+)
+]
+)
+g1,88:35407134,54010927
+)
+)
+]
+]
+!3724
+}1
+Input:136:C:\Users\lucen\Dropbox\Aplicativos\fortran\Basic.Fortran.Course\tex\plot.aux
+!96
+Postamble:
+Count:145
+!25
+Post scriptum:

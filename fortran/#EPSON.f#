@@ -1,0 +1,3 @@
+program test
+print* "Hellow World!";
+end program test

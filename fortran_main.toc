@@ -1,0 +1,9 @@
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {2}{Introdução}{7}{0}{1}
+\beamer@sectionintoc {3}{O computador}{11}{0}{2}
+\beamer@sectionintoc {4}{Representação de dados em um Computador}{12}{0}{3}
+\beamer@sectionintoc {5}{Linguagem de Computadores}{13}{0}{4}
+\beamer@sectionintoc {6}{A história da linguagem fortran}{14}{0}{5}
+\beamer@sectionintoc {7}{A evolução do fortran}{15}{0}{6}
+\beamer@sectionintoc {8}{Resumo}{16}{0}{7}
+\beamer@sectionintoc {9}{Execícios}{17}{0}{8}

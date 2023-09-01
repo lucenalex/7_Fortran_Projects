@@ -139,7 +139,6 @@
 				anchor=north,
 				/tikz/every even column/.append style={column sep=0.5cm} % Espaçamento entre as entradas da legenda
 			},
-			\ref{legendname}, % Referência para a legenda
 			]
 			\addlegendentry{$\omega = 1.0$}
 			\addplot [smooth, very thick, blue] table {dados_freq_1.dat};
@@ -157,6 +156,7 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
+	\ref{legendname}, % Referência para a legenda
 	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
 \end{figure}
 

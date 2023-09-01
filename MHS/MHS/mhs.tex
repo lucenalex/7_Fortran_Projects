@@ -12,12 +12,14 @@
 				ylabel=Posição,
 				title=Gráfico do Oscilador Harmônico,
 				grid=both,
-				width=0.8\textwidth,					
+				width=0.8\textwidth,
 				height=0.6\textwidth,
 				smooth, % Suaviza a linha
 				very thin, % Torna a linha mais fina
+				blue, % Define a cor da linha como azul
+				dashed, % Cria uma linha tracejada
 				]
-				\addplot table {oscilador.dat}; % Aqui ele importa os dados diretamente do arquivo oscilador.dat
+				\addplot table {dados.dat}; % Aqui ele importa os dados diretamente do arquivo dados.dat
 			\end{axis}
 		\end{tikzpicture}
 		\caption{Gráfico do Oscilador Harmônico.}

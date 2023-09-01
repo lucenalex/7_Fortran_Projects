@@ -129,7 +129,6 @@
 			xlabel=Tempo,
 			ylabel=Posição,
 			title=Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares,
-			\ref{legendname} % Referência para a legenda,
 			grid=both,
 			width=0.8\textwidth,
 			height=0.6\textwidth,
@@ -140,6 +139,7 @@
 				anchor=north,
 				/tikz/every even column/.append style={column sep=0.5cm} % Espaçamento entre as entradas da legenda
 			},
+			\ref{legendname}, % Referência para a legenda
 			]
 			\addlegendentry{$\omega = 1.0$}
 			\addplot [smooth, very thick, blue] table {dados_freq_1.dat};

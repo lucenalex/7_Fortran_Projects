@@ -10,15 +10,68 @@
 			\begin{axis}[
 				xlabel=Tempo,
 				ylabel=Posição,
-				title=Gráfico do Oscilador Harmônico,
+				title=Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares,
 				grid=both,
 				width=0.8\textwidth,
-				height=0.6\textwidth
+				height=0.6\textwidth,
+				legend pos=north west, % Posição da legenda
 				]
-				\addplot[smooth, very thick, red] table {oscilador.dat}; % Aqui ele importa os dados diretamente do arquivo oscilador.dat
+				\addlegendentry{Freq. Angular 1.0}
+				\addplot [smooth, very thin, blue] table {dados_freq_1.dat};
+				
+				\addlegendentry{Freq. Angular 2.0}
+				\addplot [smooth, very thin, red, dashed] table {dados_freq_2.dat};
+				
+				\addlegendentry{Freq. Angular 3.0}
+				\addplot [smooth, very thin, green, dotted] table {dados_freq_3.dat};
+				
+				\addlegendentry{Freq. Angular 4.0}
+				\addplot [smooth, very thin, orange, dashdotted] table {dados_freq_4.dat};
+				
+				\addlegendentry{Freq. Angular 5.0}
+				\addplot [smooth, very thin, purple, densely dotted] table {dados_freq_5.dat};
 			\end{axis}
 		\end{tikzpicture}
-		\caption{Gráfico do Oscilador Harmônico.}
+		\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
 	\end{figure}
+	
+		
+		\begin{figure}
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					xlabel=Tempo,
+					ylabel=Posição,
+					title=Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares,
+					grid=both,
+					width=0.8\textwidth,
+					height=0.6\textwidth,
+					legend pos=north west, % Posição da legenda no canto superior esquerdo
+					]
+					% Adiciona a legenda para cada curva
+					\addlegendentry{Freq. Angular 1.0}
+					% Define a primeira curva com estilo suave, fina, azul
+					\addplot [smooth, very thin, blue] table {dados_freq_1.dat};
+					
+					\addlegendentry{Freq. Angular 2.0}
+					% Define a segunda curva com estilo suave, fina, vermelha tracejada
+					\addplot [smooth, very thin, red, dashed] table {dados_freq_2.dat};
+					
+					\addlegendentry{Freq. Angular 3.0}
+					% Define a terceira curva com estilo suave, fina, verde pontilhada
+					\addplot [smooth, very thin, green, dotted] table {dados_freq_3.dat};
+					
+					\addlegendentry{Freq. Angular 4.0}
+					% Define a quarta curva com estilo suave, fina, laranja tracejada-pontilhada
+					\addplot [smooth, very thin, orange, dashdotted] table {dados_freq_4.dat};
+					
+					\addlegendentry{Freq. Angular 5.0}
+					% Define a quinta curva com estilo suave, fina, roxa densamente pontilhada
+					\addplot [smooth, very thin, purple, densely dotted] table {dados_freq_5.dat};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+		\end{figure}
+
 	
 \end{document}

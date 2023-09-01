@@ -122,6 +122,45 @@
 	\ref{legendname} % Referência para a legenda
 \end{figure}
 
+\begin{figure}
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel=Tempo,
+			ylabel=Posição,
+			title=Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares,
+			grid=both,
+			width=0.8\textwidth,
+			height=0.6\textwidth,
+			legend style={
+				legend columns=-1, % Para formato de linha
+				legend to name=legendname, % Nome da legenda
+				at={(0.5,-0.2)}, % Posição abaixo do gráfico
+				anchor=north,
+				/tikz/every even column/.append style={column sep=0.5cm} % Espaçamento entre as entradas da legenda
+			},
+			]
+			\addlegendentry{$\omega = 1.0$}
+			\addplot [smooth, very thick, blue] table {dados_freq_1.dat};
+			
+			\addlegendentry{$\omega = 2.0$}
+			\addplot [smooth, very thick, red, dashed] table {dados_freq_2.dat};
+			
+			\addlegendentry{$\omega = 3.0$}
+			\addplot [smooth, very thick, green, dotted] table {dados_freq_3.dat};
+			
+			\addlegendentry{$\omega = 4.0$}
+			\addplot [smooth, very thick, orange, dashdotted] table {dados_freq_4.dat};
+			
+			\addlegendentry{$\omega = 5.0$}
+			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+	\ref{legendname} % Referência para a legenda
+\end{figure}
+
+
 
 
 	

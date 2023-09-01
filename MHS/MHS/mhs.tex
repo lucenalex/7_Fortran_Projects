@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+	
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[
+				xlabel=Tempo,
+				ylabel=Posição,
+				title=Gráfico do Oscilador Harmônico,
+				grid=both,
+				width=0.8\textwidth,
+				height=0.6\textwidth
+				]
+				\addplot table {dados.dat}; % Aqui ele importa os dados diretamente do arquivo dados.dat
+			\end{axis}
+		\end{tikzpicture}
+		\caption{Gráfico do Oscilador Harmônico.}
+	\end{figure}
+	
+\end{document}

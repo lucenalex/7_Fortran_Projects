@@ -39,6 +39,7 @@ Conte\'{u}do do Resumo aqui%
 
 \begin{figure}[hptb]
 \centering
+\pgfplotstableread[col sep=comma]{oscilador.dat}\datatable
 \begin{tikzpicture}
 			\begin{axis}[
 				xlabel=Tempo,

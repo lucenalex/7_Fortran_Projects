@@ -1,15 +1,45 @@
-\documentclass{article}
+%2multibyte Version: 5.50.0.2960 CodePage: 65001
+\documentclass{article}%
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
-\usepackage{pgfplots}
+\usepackage{pgfplots}%
+\usepackage{amsmath}%
+\setcounter{MaxMatrixCols}{30}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=65001}
+%TCIDATA{LastRevised=Friday, September 01, 2023 20:52:17}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%BeginMSIPreambleData
+\providecommand{\U}[1]{\protect\rule{.1in}{.1in}}
+%EndMSIPreambleData
 \pgfplotsset{compat=1.17}
 \usepgfplotslibrary{groupplots}
-
 \begin{document}
 	
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}
+	
+%
+%TCIMACRO{\TeXButton{Begin_Abstract}{\begin{abstract}}}%
+%BeginExpansion
+\begin{abstract}%
+%EndExpansion
+
+Conte\'{u}do do Resumo aqui%
+
+%TCIMACRO{\TeXButton{End_Abstract}{\end{abstract}}}%
+%BeginExpansion
+\end{abstract}%
+%EndExpansion
+
+
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 			\begin{axis}[
 				xlabel=Tempo,
 				ylabel=Posição,
@@ -21,12 +51,12 @@
 				\addplot[smooth, very thick, red] table {oscilador.dat}; % Aqui ele importa os dados diretamente do arquivo oscilador.dat
 			\end{axis}
 		\end{tikzpicture}
-		\caption{Gráfico do Oscilador Harmônico.}
-	\end{figure}
-	
-	\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico.}%
+\end{figure}
+
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -52,12 +82,13 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico para Diferentes
+Frequ\^{e}ncias Angulares.}%
 \end{figure}
 
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -91,13 +122,13 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico para Diferentes
+Frequ\^{e}ncias Angulares.}%
 \end{figure}
 
-
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -124,12 +155,13 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico para Diferentes
+Frequ\^{e}ncias Angulares.}%
 \end{figure}
 
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -161,13 +193,15 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
-	\ref{legendname} % Referência para a legenda
+\ref{legendname}
+%Referência para a legenda
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico para Diferentes
+Frequ\^{e}ncias Angulares.}%
 \end{figure}
 
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -199,13 +233,15 @@
 			\addplot [smooth, thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\ref{legendname} % Referência para a legenda
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
+\ref{legendname}
+%Referência para a legenda
+\caption{Gr\~{A}\textexclamdown fico do Oscilador Harm\~{A}\'{}nico para
+Diferentes Frequ\~{A}${{}^a}$ncias Angulares.}%
 \end{figure}
 
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
+\begin{figure}[ptb]
+\centering
+\begin{tikzpicture}
 		\begin{axis}[
 			xlabel=Tempo,
 			ylabel=Posição,
@@ -236,10 +272,7 @@
 			\addplot [smooth, very thick, purple, densely dotted] table {dados_freq_5.dat};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico do Oscilador Harmônico para Diferentes Frequências Angulares.}
-	
+\caption{Gr\'{a}fico do Oscilador Harm\^{o}nico para Diferentes
+Frequ\^{e}ncias Angulares.}%
 \end{figure}
-
-
-	
 \end{document}

@@ -19,7 +19,10 @@
 %EndMSIPreambleData
 \usepackage{pgfplots}%
 \pgfplotsset{compat=1.17}
-\usepgfplotslibrary{groupplots}
+\usepgfplotslibrary{groupplots,external}
+\tikzexternalize[shell escape=-enable-write18]
+\tikzsetexternalprefix{figures/}
+
 \begin{document}
 	
 	

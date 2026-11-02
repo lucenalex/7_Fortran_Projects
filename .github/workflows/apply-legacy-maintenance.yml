@@ -27,7 +27,7 @@ jobs:
           bash tools/check_sources.sh "$RUNNER_TEMP/verification"
           git diff --check
           changed=$(git diff --name-only | wc -l)
-          test "$changed" -eq 23
+          test "$changed" -eq 24
           git diff --name-only
       - name: Commit only source modifications on isolated branch
         run: |

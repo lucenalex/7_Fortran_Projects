@@ -6,7 +6,7 @@ $root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $commandNames = @('ifx', 'ifort', 'devenv', 'vswhere', 'cmake')
 $available = foreach ($name in $commandNames) {
     $command = Get-Command $name -ErrorAction SilentlyContinue
-    [pscustomobject]@{ Tool = $name; Found = [bool]$command; Location = if ($command) { $command.Source } else { '' } }
+    [pscustomobject]@{ Tool = $name; Found = [bool]$command; Location = $(if ($command) { $command.Source } else { '' }) }
 }
 $projects = @(Get-ChildItem -LiteralPath $root -File -Recurse -Filter '*.vfproj' |
     Where-Object { $_.FullName -notmatch '[\\/]\.git[\\/]' } |

@@ -1,0 +1,49 @@
+# Fortran e IDEs: evita novos binários e estados transitórios.
+# Arquivos já rastreados pelo Git continuam rastreados até remoção explícita do índice.
+**/.vs/
+*.suo
+*.vsidx
+*.VC.db
+*.VC.opendb
+*.pdb
+*.ilk
+*.idb
+*.obj
+*.o
+*.exe
+*.dll
+*.mod
+*.smod
+*.a
+*.so
+*.dylib
+*.swp
+*.un~
+*~
+*.bak
+*.save-failed
+**/bin/Debug/
+**/obj/Debug/
+**/x64/Debug/
+**/x64/Release/
+
+# Arquivos auxiliares LaTeX
+*.aux
+*.log
+*.blg
+*.bbl
+*.bcf
+*.run.xml
+*.synctex
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.toc
+*.out
+*.lof
+*.lot
+
+# NÃO ignorar fontes Fortran, projetos .vfproj/.sln,
+# dados .txt/.bin, .tex/.bib e PDFs de documentação globalmente.

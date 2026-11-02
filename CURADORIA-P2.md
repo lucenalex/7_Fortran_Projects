@@ -1,5 +1,8 @@
 # Curadoria proposta — Fortran (2026-11-02)
 
+> **Registro histórico de baseline:** os números abaixo descrevem a primeira inspeção, não o estado de CI mais recente. Consulte [README.md](README.md), [matriz Windows/Intel](MATRIZ-WINDOWS-INTEL-FORTRAN-2026-11-02.md) e [forense de fontes ausentes](FORENSICA-FONTES-AUSENTES-2026-11-02.md). **Seis builds GFortran no Windows não substituem validação Intel; o PR #2 permanece em rascunho.**
+
+
 ## Resultado da inspeção
 Árvore de `main` inspecionada: 351 blobs, 21.920.171 bytes brutos. Padrões identificados: 51 `.exe`, 37 `.o`, 11 `.suo`, 8 `.pdb`, 6 `.vsidx`. Outras extensões de saída também aparecem.
 

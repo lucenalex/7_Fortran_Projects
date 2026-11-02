@@ -1,4 +1,4 @@
-name: Apply guarded byte-preserving maintenance
+name: Apply guarded byte-preserving maintenance (Fortran rerun)
 on:
   push:
     branches: [maintenance/legacy-warnings-2026-11-02]

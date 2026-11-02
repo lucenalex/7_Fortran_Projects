@@ -22,7 +22,7 @@
     integer :: x1 = 28, x2 = 3, x3 = 4
 
     ! Body of Console4
-    print *, 'Ol· Mundo! Eu sou o Fortran.'
+    print *, 'Ol√° Mundo! Eu sou o Fortran.'
     print *, 'a = ', a
     print *, 'b = ', b
     c = (a) * (b)
@@ -38,8 +38,8 @@
     print *, '28/3/4 is igual to ', 28/3/4
     print *, '(28/3)/4 is igual to ', (28/3)/4
     print *, '3.**(-4./2.) is igual to ', 3**(-4./2.)
-    print *, '4.**-3 is igual to ', 4.**-3
-    print *, '(-3.).**(-5./2.) is igual to ', (-3.)**(-5./2.)
+    print *, '4.**(-3) is igual to ', 4.**-3
+    print *, '(-3.)**(-5./2.) em complexos = ', cmplx(-3.0, 0.0)**(-5.0/2.0)
 
     end program Console4
 

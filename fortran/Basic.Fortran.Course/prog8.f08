@@ -10,15 +10,21 @@ program regression
      
      ! Valor inicial das somas
      sumx  = 0.0
-     symy  = 0.0
+     sumy  = 0.0
+     sumxx = 0.0
      sumxy = 0.0
      
      open (10,file = 'pts.dat')    ! Abra o arquivo de dados; anexar à unidade 10.
-     read (10,*) n                 ! Leia o número de pontos.
+     read (10,*,end=900,err=900) n
+     if (n < 2 .or. n > size(x)) then
+         print *, 'Numero de pontos fora do intervalo 2..100'
+         close(10)
+         stop 1
+     end if                 ! Leia o número de pontos.
      
      ! Leia o resto das marcas, uma por linha, e some as somas.
      do i = 1,N
-         read(10,*) x(i),y(i)
+         read(10,*,end=900,err=900) x(i),y(i)
          sumx  = sumx + x(i)
          sumy  = sumy + y(i)
          sumxy = sumxy + x(i)*y(i)
@@ -29,14 +35,21 @@ program regression
      ! Calculo do melhor ajuste para a linha reta
      xbar = sumx/N
      ybar = sumy/N
-     m    = (sumxy - xbar*ybar)/(suxx/N - xbar**2)
+     if (abs(sumxx/N - xbar**2) <= epsilon(xbar)) then
+         print *, 'Nao existe ajuste linear unico: variancia de x nula.'
+         stop 1
+     end if
+     m    = (sumxy/N - xbar*ybar)/(sumxx/N - xbar**2)
      c    = ybar - m*xbar
      
      print *, 'Inclinação = ',m
      print *, 'Interceptação = ',c
-     print *, '(3(1x, es10.3))', 'x', 'y', 'mx+c'
+     print '(3(1x,a10))', 'x', 'y', 'mx+c'
      do i = 1, N
-         print *, '(3(1x,es10.3))',x(i), y(i), m*x(i) + c
+         print '(3(1x,es10.3))',x(i), y(i), m*x(i) + c
      end do
      
+     stop
+900  print *, 'Falha ao ler dados do arquivo pts.dat'
+     stop 1
 end program regression

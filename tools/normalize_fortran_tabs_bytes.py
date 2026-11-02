@@ -29,7 +29,18 @@ def normalize(source):
                     else:
                         quote = None
             i += 1
-    return bytes(output)
+    # Strip trailing horizontal whitespace only. Preserve original CRLF/LF and
+    # non-whitespace bytes, including Latin-1 source comments.
+    cleaned = bytearray()
+    for item in bytes(output).splitlines(keepends=True):
+        if item.endswith(b"\r\n"):
+            payload, eol = item[:-2], b"\r\n"
+        elif item.endswith(b"\n"):
+            payload, eol = item[:-1], b"\n"
+        else:
+            payload, eol = item, b""
+        cleaned.extend(payload.rstrip(b" \t") + eol)
+    return bytes(cleaned)
 
 def main():
     p = argparse.ArgumentParser()

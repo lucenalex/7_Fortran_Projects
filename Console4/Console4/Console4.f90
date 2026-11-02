@@ -38,7 +38,7 @@
     print *, '28/3/4 is igual to ', 28/3/4
     print *, '(28/3)/4 is igual to ', (28/3)/4
     print *, '3.**(-4./2.) is igual to ', 3**(-4./2.)
-    print *, '4.**(-3) is igual to ', 4.**-3
+    print *, '4.**(-3) is igual to ', 4.**(-3)
     print *, '(-3.)**(-5./2.) em complexos = ', cmplx(-3.0, 0.0)**(-5.0/2.0)
 
     end program Console4

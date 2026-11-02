@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/backup-bundle.yml'
+      - 'README.md'
+      - 'POLITICA-PRESERVACAO-CIENTIFICA-2026-11-02.md'
   pull_request:
     branches: [main]
     paths:

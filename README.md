@@ -4,6 +4,10 @@ Coleção de exercícios de Fortran, exemplos de console, projetos Visual Studio
 
 **Atualizado em 02/11/2026.** Esta página distingue os resultados efetivamente verificados, as dependências pendentes e as propostas de limpeza não integradas.
 
+## Política de preservação — 02/11/2026
+
+A [política de retenção científica e dos binários históricos](POLITICA-PRESERVACAO-CIENTIFICA-2026-11-02.md) documenta classes de arquivos, critérios de reprodutibilidade, direitos, backup independente e bloqueios para exclusões. **Nenhum executável antigo está autorizado para remoção automática.**
+
 ## Mapa do acervo
 
 | Conteúdo | Local / observação |

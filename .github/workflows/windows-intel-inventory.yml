@@ -1,0 +1,50 @@
+name: Windows Intel Fortran compatibility inventory
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/windows-intel-inventory.yml'
+      - 'tools/audit_vfproj_windows.py'
+      - '**/*.vfproj'
+      - '**/*.f90'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect-legacy-vfproj:
+    runs-on: windows-2022
+    timeout-minutes: 25
+    steps:
+      - name: Checkout without persisting credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Read-only Windows/Intel tool discovery
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path "$env:RUNNER_TEMP/fortran-windows" | Out-Null
+          & ./tools/check_intel_windows.ps1 | Out-File -Encoding utf8 "$env:RUNNER_TEMP/fortran-windows/intel-tools.json"
+          Get-Content "$env:RUNNER_TEMP/fortran-windows/intel-tools.json" | Select-Object -First 20
+      - name: Install Windows GFortran as *non-Intel* reference
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            mingw-w64-ucrt-x86_64-gcc-fortran
+            mingw-w64-ucrt-x86_64-python
+      - name: Validate VFPROJ XML and try independent Windows GFortran builds
+        shell: msys2 {0}
+        run: |
+          gfortran --version | head -1
+          python tools/audit_vfproj_windows.py --report "$RUNNER_TEMP/fortran-windows/vfproj-results.json"
+      - name: Upload compatibility matrix and dependency inventory
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: windows-fortran-compatibility
+          path: ${{ runner.temp }}/fortran-windows/
+          if-no-files-found: warn
+          retention-days: 7

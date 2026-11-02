@@ -25,6 +25,15 @@ grep -q 'Inclinação' ajuste8.log
 "${FC[@]}" "$ROOT/fortran/Basic.Fortran.Course/prog9.f08" -o ajuste9
 timeout 5s ./ajuste9 > ajuste9.log
 grep -q 'Inclinação' ajuste9.log
+# Regressão y=2x+1: confirmar resultados, não apenas a existência do rótulo.
+for log in ajuste8.log ajuste9.log; do
+  awk '
+    /Inclina/ { if (($NF < 1.999) || ($NF > 2.001)) exit 1; slope=1 }
+    /Intercepta/ { if (($NF < 0.999) || ($NF > 1.001)) exit 1; intercept=1 }
+    END { if (!slope || !intercept) exit 1 }
+  ' "$log"
+done
+
 
 "${FC[@]}" "$ROOT/Console4/Console4/Console4.f90" -o console4
 timeout 5s ./console4 > console4.log

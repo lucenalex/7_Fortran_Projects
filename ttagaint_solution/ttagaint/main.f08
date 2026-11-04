@@ -1,4 +1,0 @@
-PROGRAM Main
-	IMPLICIT NONE
-	PRINT *, "Olá Mundo!" 
-END PROGRAM Main

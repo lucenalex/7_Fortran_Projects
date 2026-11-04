@@ -1,0 +1,59 @@
+\documentclass[border={1pt 1pt 25pt 1pt}]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+    \begin{tikzpicture}
+        \begin{axis}[
+        	tiny,
+        	width=8.0cm,
+        	height=6.0cm,
+        	title={Plot of Sine Function},
+            xlabel={$x$},
+            every axis x label/.style = {
+            	font = \small,
+            	at = {(ticklabel cs:0.5)},
+            	anchor = near ticklabel
+            },
+            xtick = {0,2,4,6,8,10},
+            %xticklabels={$0$,$\frac{\pi}{2}$,$\pi$,$\frac{3\pi}{2}$,$2\pi$,$\frac{5\pi}{2}$,$3\pi$,$10$},
+            %xtick = {0,pi/2,pi,3*pi/2,2*pi,5*pi/2,3*pi,10},
+            %xticklabels={$0$,$\frac{\pi}{2}$,$\pi$,$\frac{3\pi}{2}$,$2\pi$,$\frac{5\pi}{2}$,$3\pi$,$10$},
+            xmin=-0.3, xmax=10.3,
+            minor x tick num=1,
+            ylabel={$y = \sin{x}$},
+            every axis y label/.style = {
+            	font = \small,
+            	at = {(ticklabel cs:0.5)},
+            	rotate = 90,
+            	anchor = near ticklabel,
+            },
+            ytick = {-1.00,-0.75,-0.50,-0.25,0.00,0.25,0.50,0.75,1.00},
+            yticklabels = {$-1.00$,$-0.75$,$-0.50$,$-0.25$,$0.00$,$0.25$,$0.50$,$0.75$,$1.00$,},
+            ymin=-1.1, ymax=+1.1,
+            minor y tick num=1,
+            %grid=major,
+            legend entries={,{Sine Function}},
+%            legend pos=north west,
+            legend style={font = \tiny, draw = none, at={(0.20,0.15)},anchor=north, legend columns = -1},
+            %legend cell align={left},
+            %legend columns=2,
+            %legend to name=legend,
+        ]
+        	\addplot[
+        		red, 
+        		domain=0:2*pi, 
+        		samples=360,
+        	] {sin(deg(x))};
+        	
+            \addplot [
+            	blue,
+            	%mark=*,
+            ] table {plot_sine_function.dat};
+            %\addlegendentry {Sine Function};
+            %\fill (yticklabel cs:0.5) circle(2pt);
+            
+        \end{axis}
+        
+    \end{tikzpicture}
+\end{document}

@@ -1,4 +1,0 @@
-PROGRAM test
-    implicit none
-    print (*,*) "Olá Mundo!"
-END PROGRAM test
